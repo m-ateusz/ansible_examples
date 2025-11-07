@@ -2,7 +2,7 @@
   hosts: hosts
   become: True
   tasks: 
-    - name: id on host:
+    - name: id on host
       ansible.builtin.command: id
       register: userid
 
