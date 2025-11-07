@@ -1,4 +1,4 @@
-- name: ID on hosts
+"- name: ID on hosts
   hosts: hosts
   become: True
   tasks: 
@@ -8,4 +8,4 @@
 
     - name: show userid
       ansible.builtin.debug:
-        msg: {{ userid }}
+        msg: " {{ userid }} "
