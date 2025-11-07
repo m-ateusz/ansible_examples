@@ -1,6 +1,6 @@
 ---
 - name: Ping
-  hosts: hosts
+  hosts: all
   become: false
   tasks:
     - name: Execute ping
